@@ -2,6 +2,12 @@
 
 These are the command-line entry points for reproducing the paper, training improved models, tuning and running the demo. Run all commands from the repository root after installing [dependencies](../requirements.txt). Replace `/path/to/genres_original` with the GTZAN WAV directory.
 
+Advisable to run it on a Virtual Environment
+```bash
+python3 -m venv VirtualEnv
+source VirtualEnv/bin/activate
+```
+
 ```bash
 # Reproduce the original random-segment protocol and compare it with a song split.
 python scripts/01_reproduce_paper.py --data-root "/path/to/genres_original" --split random_segment --out outputs/paper_leaky
