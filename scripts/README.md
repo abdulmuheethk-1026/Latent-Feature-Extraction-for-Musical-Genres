@@ -8,6 +8,12 @@ python3 -m venv VirtualEnv
 source VirtualEnv/bin/activate
 ```
 
+Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+
 ```bash
 # Reproduce the original random-segment protocol and compare it with a song split.
 python scripts/01_reproduce_paper.py --data-root "/path/to/genres_original" --split random_segment --out outputs/paper_leaky
