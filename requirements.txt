@@ -1,0 +1,11 @@
+# Kaggle already ships tensorflow, librosa, scikit-learn, matplotlib, pandas.
+# Locally:  pip install -r requirements.txt
+tensorflow>=2.12
+librosa>=0.10
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+optuna          # only needed for scripts/03_tune_optuna.py
+soundfile
