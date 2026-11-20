@@ -2,7 +2,7 @@
 # Latent Feature Extraction for Musical Genres
 
 | SRN | Name |
-| --- | ---: |
+| --- | --- |
 PES1UG24CS550 | Abdul Muheeth K |
 PES1UG24CS551 | Abhay Dubey H |
 
